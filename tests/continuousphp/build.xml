@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="doctrine/dbal">
+    <target name="install-pdo-oci" description="Install PDO OCI extension">
+        <exec command="phpbrew ext install pdo_oci" passthru="true"/>
+    </target>
+</project>
